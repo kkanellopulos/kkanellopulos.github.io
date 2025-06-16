@@ -56,7 +56,8 @@ ul li {
 
 footer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: auto; /* replaces margin-top: 50px; */
+  padding: 10px 0;
   font-size: 0.9em;
   color: #666;
 }
