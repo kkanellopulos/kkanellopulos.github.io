@@ -1,3 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;  /* already handled in body, but safe to set for html too */
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 body {
   font-family: sans-serif;
   margin: 40px;
