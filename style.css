@@ -9,10 +9,6 @@ html, body {
   min-height: 100vh;
 }
 
-main {
-  flex: 1;
-}
-
 body {
   font-family: sans-serif;
   margin: 40px;
@@ -35,6 +31,7 @@ nav a:hover {
 }
 
 main {
+  flex: 1;
   max-width: 800px;
   margin: auto;
 }
