@@ -28,6 +28,22 @@ ul li {
   margin-bottom: 20px;
 }
 
+.cv-entry {
+  display: flex;
+  gap: 20px;  /* space between date and description */
+  margin-bottom: 10px;  /* space between entries */
+}
+
+.cv-date {
+  min-width: 100px;  /* reserve space for date */
+  font-weight: bold;
+}
+
+.cv-desc {
+  flex: 1;  /* take the remaining space */
+}
+
+
 footer {
   text-align: center;
   margin-top: 50px;
