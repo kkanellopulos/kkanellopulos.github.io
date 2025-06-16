@@ -29,20 +29,15 @@ ul li {
 }
 
 .cv-entry {
-  display: flex;
-  gap: 20px;  /* space between date and description */
-  margin-bottom: 10px;  /* space between entries */
+  display: grid;
+  grid-template-columns: 120px auto; /* adjust width of date column */
+  gap: 10px;  /* space between columns */
+  margin-bottom: 8px; /* space between rows */
 }
 
 .cv-date {
-  min-width: 100px;  /* reserve space for date */
   font-weight: bold;
 }
-
-.cv-desc {
-  flex: 1;  /* take the remaining space */
-}
-
 
 footer {
   text-align: center;
