@@ -9,6 +9,12 @@ html, body {
   min-height: 100vh;
 }
 
+main {
+  flex: 1;
+  max-width: 800px;
+  margin: auto;
+}
+
 body {
   font-family: sans-serif;
   margin: 40px;
@@ -28,12 +34,6 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-}
-
-main {
-  flex: 1;
-  max-width: 800px;
-  margin: auto;
 }
 
 ul li {
