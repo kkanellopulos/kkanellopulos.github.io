@@ -39,6 +39,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul li {
   margin-bottom: 20px;
 }
