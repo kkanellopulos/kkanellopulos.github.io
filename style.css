@@ -17,6 +17,11 @@ main {
   line-height: 1.6;
 }
 
+main a {
+  text-decoration: none;
+  color: #007acc;
+}
+
 body {
   font-family: sans-serif;
   background-color: #f9f9f9;
