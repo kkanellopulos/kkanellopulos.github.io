@@ -17,8 +17,8 @@ main {
   line-height: 1.6;
 }
 
-main a {
-  text-decoration: none;
+a {
+  text-decoration: none !important;
   color: #007acc;
 }
 
